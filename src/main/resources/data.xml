@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Root>
+	<Employee Name="Ivan Ivanov">
+		<Dateo Status="Order">
+			<Day>10</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dateo>
+		<Dated Status="Delivery">
+			<Day>12</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dated>
+		<Dates Status="Storage">
+			<Day>19</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dates>
+		<Type>Товар</Type>
+		<Composition>RTX 3050 MSI Gaming Duo Strike</Composition>
+		<Price>10000</Price>
+		<Number>1234567890</Number>
+	</Employee>
+	<Employee Name="Semen Semenov">
+		<Dateo Status="Order">
+			<Day>12</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dateo>
+		<Dated Status="Delivery">
+			<Day>13</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dated>
+		<Dates Status="Storage">
+			<Day>20</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dates>
+		<Type>Товар</Type>
+		<Composition>SSD 500 GB WD</Composition>
+		<Price>7000</Price>
+		<Number>0987654321</Number>
+	</Employee>
+	<Employee Name="Rahim Rahimov">
+		<Dateo Status="Order">
+			<Day>19</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dateo>
+		<Dated Status="Delivery">
+			<Day>20</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dated>
+		<Dates Status="Storage">
+			<Day>27</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dates>
+		<Composition>JBL D-2000</Composition>
+		<Type>Товар</Type>
+		<Price>9000</Price>
+		<Number>7777777777</Number>
+	</Employee>
+	<Employee Name="Sergey Sergeev">
+		<Dateo Status="Order">
+			<Day>28</Day>
+			<Month>4</Month>
+			<Year>2028</Year>
+		</Dateo>
+		<Dated Status="Delivery">
+			<Day>3</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dated>
+		<Dates Status="Storage">
+			<Day>10</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dates>
+		<Composition>Cleanib PC and update drivers</Composition>
+		<Type>Услуга</Type>
+		<Price>100000</Price>
+		<Number>6467578920</Number>
+	</Employee>
+	<Employee Name="Valeriy Valuev">
+		<Dateo Status="Order">
+			<Day>9</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dateo>
+		<Dated Status="Delivery">
+			<Day>12</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dated>
+		<Dates Status="Storage">
+			<Day>12</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dates>
+		<Composition>Update BIOS</Composition>
+		<Type>Услуга</Type>
+		<Price>1000</Price>
+		<Number>4529873645</Number>
+	</Employee>
+	<Employee Name="Artur Glazkov">
+		<Dateo Status="Order">
+			<Day>12</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dateo>
+		<Dated Status="Delivery">
+			<Day>12</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dated>
+		<Dates Status="Storage">
+			<Day>12</Day>
+			<Month>5</Month>
+			<Year>2028</Year>
+		</Dates>
+		<Composition>Headphones Razer Craken 4000</Composition>
+		<Type>Товар</Type>
+		<Price>9700</Price>
+		<Number>4821759439</Number>
+	</Employee>
+</Root>
