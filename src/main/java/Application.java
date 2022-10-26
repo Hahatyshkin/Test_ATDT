@@ -13,7 +13,8 @@ class Application {
         System.out.println("Введите выходной файл");
         String output = in.nextLine();
         try {
-            XmlToCsv.execute(input, output);
+            XmlToCsv xmlToCsv = new XmlToCsv("src/main/java/style.xsl");
+            xmlToCsv.execute(input, output);
             System.out.println("Операция выполнена успешно");
         } catch (IOException ex) {
             System.out.println("Один из файлов не найден " + ex.getLocalizedMessage());

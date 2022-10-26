@@ -13,12 +13,15 @@ import java.io.IOException;
 
 public class XmlToCsv {
 
-    private static final String PARAM_FILE = "src/main/java/style.xsl";
+    private final String paramFile;
 
-    public static void execute(String inFile, String outFile) throws ParserConfigurationException, TransformerException, IOException, SAXException {
-        File stylesheet = new File(PARAM_FILE);
+    public XmlToCsv(String paramFile) {
+        this.paramFile = paramFile;
+    }
+
+    public void execute(String inFile, String outFile) throws ParserConfigurationException, TransformerException, IOException, SAXException {
+        File stylesheet = new File(paramFile);
         File xmlSource = new File(inFile);
-
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document document = builder.parse(xmlSource);
